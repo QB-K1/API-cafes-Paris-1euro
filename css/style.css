@@ -89,14 +89,3 @@ fieldset, article, aside {
 /* --------------------------- Ce qui concerne le footer ----------------------------- */
 /*-------------------------------------------------------------------------------------*/
 
-#licence {
-    clear: both; /*Pour qu'elle repasse en-dessous de article et aside en mobile*/
-    display: block;
-    text-align: center;
-    padding: 1.3em;
-    margin: 0 auto;
-}
-
-#licence img {
-    width: 2.5em;
-}
