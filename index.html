@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<!-- Ici début de mon entête de document qui est invisible dans la page-->
+	<head>
+		<!-- Ici mon titre qui apparaît uniquement dans l'onglet du navigateur-->
+		<title>Café Mairie de Paris</title>
+		<!-- Ici l'appel des bons alphabets et signes-->
+		<meta charset="utf-8"/>
+		<!--Reset la taille du visible en mobile/tablette, évite zooms-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<!-- Ici l'appel du fichier CSS reset.css-->
+		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+		<!-- Ici l'appel du fichier CSS normalize.css-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
+		<!-- Ici l'appel du fichier CSS style.css-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	</head>
+	<!-- Fin de l'entête du document-->
+	<!-- Ici début du corps visible dans la page-->
+	<body>
+	<!--Ici début du header-->
+		<header>
+
+		<a href="http://localhost/3WA/3WA%20Modules/Developpement/JS3.3/Exo%20requetes%20API/"><img src="img/Cafe.png"></a>
+
+		<h1 class="bold">RECHERCHER UN CAFE A 1€</h1>
+
+		</header>
+		<!--Ici fin du header-->
+		<!--Ici début du conteneur principal-->
+		<main>
+			<!--Ici début du formulaire-->
+			<form id="search" method="get" name="cafesForm">
+
+				<fieldset>
+
+					<legend>Rechercher par arrondissement</legend>
+
+						<input id="searchButton" type="text" name="cafeName" placeholder="750XX"/>
+
+						<input id="searchExe" type="submit" value="Rechercher"/>
+
+				</fieldset>
+
+			</form>
+			<!--Ici fin du formulaire-->
+
+			</section>
+			<!--Ici fin de section-->
+			<!--Ici début de section-->
+			<section id="results">
+
+				<!--Ici début de l'article avec résultats-->
+				<article id="resultsList">
+
+					<p>Résultats</p>
+
+				</article>
+				<!--Ici fin de l'article-->
+
+
+				<!--Ici début de l'aside avec détails du film
+				<aside id="cafeDetails">
+
+					<p>Détails</p>
+					
+				</aside>
+				Ici fin de l'aside-->
+			</section>
+			<!--Ici fin de section-->
+		</main>
+		<!-- Ici fin du conteneur principal-->
+		<!-- Ici le footer-->
+		<footer>
+			<!-- Ici début du copyright 3WA-->
+			<small id="licence">
+				<a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br /><span>Cet exercice</span> de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+			</small>
+			<!-- Ici fin du copyright 3WA-->
+		</footer>
+		<!-- Ici fin du footer-->
+		<script
+  			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous">
+		</script>
+		<!-- Ici appel du JS-->
+		<script type="text/javascript" src="js/cafe.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+	<!-- Ici fin du corps visible dans la page-->
+</html>
